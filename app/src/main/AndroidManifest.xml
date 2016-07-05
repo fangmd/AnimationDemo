@@ -19,6 +19,8 @@
         </activity>
         <activity android:name=".TweenActivity">
         </activity>
+        <activity android:name=".propertyanimation.PropertAct">
+        </activity>
     </application>
 
 </manifest>

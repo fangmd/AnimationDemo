@@ -6,6 +6,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
+import com.adouble.animatondemo.propertyanimation.PropertAct;
+
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
@@ -37,6 +39,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(this, TweenActivity.class));
                 break;
             case R.id.main_object:
+                startActivity(new Intent(this, PropertAct.class));
                 break;
         }
     }
