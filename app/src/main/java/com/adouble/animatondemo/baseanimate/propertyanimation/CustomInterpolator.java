@@ -1,4 +1,4 @@
-package com.adouble.animatondemo.propertyanimation;
+package com.adouble.animatondemo.baseanimate.propertyanimation;
 
 import android.animation.TimeInterpolator;
 

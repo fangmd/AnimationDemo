@@ -1,4 +1,4 @@
-package com.adouble.animatondemo;
+package com.adouble.animatondemo.baseanimate;
 
 import android.view.animation.Animation;
 import android.view.animation.TranslateAnimation;

@@ -26,4 +26,19 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="属性动画"/>
+    <Button
+        android:id="@+id/main_act_jump"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="一个Activity跳转动画"/>
+    <Button
+        android:id="@+id/main_act_jump2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="使用Android共享元素实现跳转动画"/>
+    <Button
+        android:id="@+id/main_bottom_sheet_behavior"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="底部拉出布局"/>
 </LinearLayout>

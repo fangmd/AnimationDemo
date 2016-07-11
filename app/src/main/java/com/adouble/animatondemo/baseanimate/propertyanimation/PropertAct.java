@@ -1,8 +1,10 @@
-package com.adouble.animatondemo.propertyanimation;
+package com.adouble.animatondemo.baseanimate.propertyanimation;
 
 import android.animation.PropertyValuesHolder;
 import android.animation.ValueAnimator;
 import android.os.Bundle;
+import android.support.v4.view.ViewCompat;
+import android.support.v4.view.ViewPropertyAnimatorCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
@@ -46,6 +48,9 @@ public class PropertAct extends AppCompatActivity {
         ButterKnife.bind(this);
 
         initListView();
+
+        ViewPropertyAnimatorCompat animate = ViewCompat.animate(mPropertyImg);
+
 
     }
 
